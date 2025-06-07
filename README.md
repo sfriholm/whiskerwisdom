@@ -1,3 +1,15 @@
+# WhiskerWisdom
+
+## Techniques used
+- React
+- Next.js
+- Axios
+- Anime.js, https://animejs.com/ 
+
+## Data from
+- Cat Fact API, https://catfact.ninja/ 
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
