@@ -1,0 +1,13 @@
+.paw {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+    transform: scale(1);
+}
+
+.pawSize {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
