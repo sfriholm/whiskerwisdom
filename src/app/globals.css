@@ -15,3 +15,11 @@ body {
   color: #3d2c1e;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fffdf9;
+  min-height: 60vh;
+}
