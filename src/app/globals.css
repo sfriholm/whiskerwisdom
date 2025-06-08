@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #fffdf9;
 }
 
 .header {
@@ -20,7 +21,6 @@ body {
 	padding: 2rem;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: #fffdf9;
 	min-height: 60vh;
 }
 
