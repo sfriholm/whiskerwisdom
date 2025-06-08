@@ -16,9 +16,11 @@ export default function CatFact() {
 
     return (
         <article>
-            <h3>Cat Fact generator</h3>
-            <Button onClick={fetchFact} disabled={loading}>
-                {catFact ? "Get antoher cat fact" : "Generate a cat fact"}
+            <Button 
+            onClick={fetchFact} 
+            disabled={loading}
+            >
+                {catFact ? "Get another cat fact" : "Generate a cat fact"}
             </Button>
             {loading && <p>Loading...</p>}
             {!loading && catFact && ( <p>{catFact}</p>)}
