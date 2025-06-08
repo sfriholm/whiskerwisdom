@@ -1,4 +1,11 @@
 # WhiskerWisdom
+WhiskerWisdom is a fun web application that presents cat facts through animations and interactions. 
+
+## Features
+- Animated cat fact reveal
+- Custom button interactions
+- Walking paw print animation
+- Responsive layout
 
 ## Techniques used
 - React
@@ -9,8 +16,23 @@
 ## Data from
 - Cat Fact API, https://catfact.ninja/ 
 
+## License
+This project is licensed under the MIT License, for more details see the LICENSE file
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Perequisites
+- Node.js
+- npm (comes with Node) or yarn
+
+## Installation
+1. Clone the repo:
+```bash
+git clone https://github.com/sfriholm/whiskerwisdom.git
+cd whiskerwisdom
+```
+2. npm install
 
 ## Getting Started
 
