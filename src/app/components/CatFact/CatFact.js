@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { getRandomCatFact } from '../../services/catFacts';
 import Button from '../Button/Button';
+import styles from './CatFact.module.css';
 
 export default function CatFact() {
     const [catFact, setCatFact] = useState("");
@@ -15,7 +16,7 @@ export default function CatFact() {
     }
 
     return (
-        <article>
+        <article className={styles.article}>
             <Button 
             onClick={fetchFact} 
             disabled={loading}
@@ -23,7 +24,7 @@ export default function CatFact() {
                 {catFact ? "Get another cat fact" : "Generate a cat fact"}
             </Button>
             {loading && <p>Loading...</p>}
-            {!loading && catFact && ( <p>{catFact}</p>)}
+            {!loading && catFact && ( <p className={styles.fact}>{catFact}</p>)}
         </article>
     )
 }

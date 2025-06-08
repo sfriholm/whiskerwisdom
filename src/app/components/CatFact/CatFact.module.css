@@ -1,0 +1,19 @@
+.article {
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.fact {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f3f0ea;
+    color: #3d2c1e;
+    padding: 1rem;
+    border: 1px solid #705743;;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
