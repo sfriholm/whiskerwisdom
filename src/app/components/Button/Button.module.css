@@ -19,3 +19,20 @@
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 900px) {
+    .button {
+		font-size: 0.9;
+        padding: 0.4rem 0.6rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .button {
+		font-size: 0.85rem;
+        padding: 0.3rem 0.5rem;
+    }
+}
+
