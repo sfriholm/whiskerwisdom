@@ -1,8 +1,9 @@
 .header {
 	background-color: #f5e9dc;
-	padding: 2rem;
+	padding: 2rem 0;
 	text-align: center;
 	border-bottom: 2px solid #d6bfa8;
+	margin: 0;
 }
 
 .title {
@@ -11,3 +12,6 @@
 	color: #3d2c1e;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+

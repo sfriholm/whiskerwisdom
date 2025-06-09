@@ -1,8 +1,10 @@
 body {
 	margin: 0;
+	padding: 0;
 	background-color: #fffdf9;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	overflow-x: hidden;
 }
 
