@@ -25,7 +25,7 @@ export default function PawTrail() {
         // Generate 10 paw steps in a zig-zag pattern going upwards
         const pawSteps = Array.from({ length: 10}, (_, i) => ({
             x: i % 2 === 0 ? xLeft : xRight, // Alternate between left and right
-            y: startY - i * stepY, // Move up by 70px per step
+            y: startY - i * stepY, // Each step gets a longer y-value than the last
         }));        
         
     
