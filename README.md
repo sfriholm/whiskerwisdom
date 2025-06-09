@@ -32,7 +32,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 git clone https://github.com/sfriholm/whiskerwisdom.git
 cd whiskerwisdom
 ```
-2. npm install
+2. 
+```bash
+npm install
+```
 
 ## Getting Started
 
