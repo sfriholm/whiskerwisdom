@@ -34,11 +34,12 @@
 @media (max-width: 500px) {
     .title {
         font-size: 1.6rem;
+		margin-top: 2rem;
     }
 	.subtitle {
 		font-size: 0.95rem;
 	}
 	.home {
-		padding: 1.5rem 1rem;
+		padding-top: 0.5rem;
 	}
 }
