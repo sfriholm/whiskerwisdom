@@ -19,3 +19,26 @@
 	color: #6a4e3d;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 900px) {
+    .title {
+        font-size: 1.8rem;
+    }
+	.subtitle {
+		font-size: 1.05rem;
+	}
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .title {
+        font-size: 1.6rem;
+    }
+	.subtitle {
+		font-size: 0.95rem;
+	}
+	.home {
+		padding: 1.5rem 1rem;
+	}
+}
