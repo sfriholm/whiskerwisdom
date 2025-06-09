@@ -17,3 +17,26 @@
     border-radius: 0.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 900px) {
+    .fact {
+        font-size: 1.1rem;
+        padding: 0.9rem;
+    }
+	.article {
+		padding: 1.5rem;
+	}
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .fact {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-top: 2rem;
+    }
+	.article {
+		padding: 1rem;
+	}
+}
