@@ -55,8 +55,10 @@ export default function CatFact() {
                 {catFact ? "Get another cat fact" : "Generate a cat fact"}
             </Button>
             {loading && <p>Loading...</p>}
-            {!loading && imageUrl && ( <CatImage imageUrl={imageUrl}></CatImage>)}
-            {!loading && catFact && ( <p ref={factRef} className={styles.fact}>{catFact}</p>)}
+            <div className={styles.factLayout}>
+                {!loading && catFact && ( <p ref={factRef} className={styles.fact}>{catFact}</p>)}
+                {!loading && imageUrl && ( <CatImage imageUrl={imageUrl}></CatImage>)}
+            </div>
         </article>
     );
 }

@@ -1,21 +1,30 @@
 .article {
     text-align: center;
     padding: 2rem;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+.factLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.factLayout img {
+    width: 100%;
+    max-width: 60%;
+    height: auto;
+    margin-top: 1rem;
+}
+
 .fact {
+    width: 100%;
+    max-width: 600px;
     margin-top: 3rem;
     font-size: 1.2rem;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f3f0ea;
-    color: #3d2c1e;
-    padding: 1rem;
-    border: 1px solid #705743;;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    
 }
 
 /* Tablet */
@@ -23,6 +32,10 @@
     .fact {
         font-size: 1.1rem;
         padding: 0.9rem;
+        margin-top: 1rem;
+    }
+    .factLayout img {
+        margin-top: 0.1rem;
     }
 	.article {
 		padding: 1.5rem;
@@ -31,10 +44,15 @@
 
 /* Mobile */
 @media (max-width: 500px) {
+    .factLayout img {
+        max-width: 80%;
+        margin-top: 0.1rem;
+    }
     .fact {
         font-size: 1rem;
         padding: 0.8rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        max-width: 300px;
     }
 	.article {
 		padding: 1rem;
