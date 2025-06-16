@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import anime from 'animejs';
-import PawPrint from '../PawPrint/PawPrint';
+import PawPrint from '../PawPrint';
 import styles from './PawTrail.module.css';
 
 export default function PawTrail() {

@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import { getRandomCatFact } from '../../services/catFacts';
-import Button from '../Button/Button';
+import Button from '../Button';
 import styles from './CatFact.module.css';
-import CatImage from '../CatImage/CatImage';
+import CatImage from '../CatImage';
 import { getRandomCatImage } from '../../services/catImage';
 import { cutive, quicksand } from '../../fonts';
 import anime from 'animejs';

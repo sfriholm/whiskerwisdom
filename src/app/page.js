@@ -3,9 +3,9 @@ import styles from "./page.module.css";
 import { useEffect, useRef } from 'react';
 import { getRandomCatFact } from './services/catFacts';
 import { quicksand } from './fonts';
-import CatFact from './components/CatFact/CatFact';
+import CatFact from './components/CatFact';
 import anime from 'animejs';
-import PawTrail from "./components/PawTrail/PawTrail";
+import PawTrail from "./components/PawTrail";
 
 export default function Home() {
 
