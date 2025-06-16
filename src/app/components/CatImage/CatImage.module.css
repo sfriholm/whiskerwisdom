@@ -1,6 +1,7 @@
 .img {
     width: 100%;
     height: auto;
+    max-height: 50vh;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.229);
     margin: 2rem auto;
