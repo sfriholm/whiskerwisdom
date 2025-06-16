@@ -12,9 +12,10 @@ export default function PawTrail() {
         setScreenWidth(window.innerWidth);
     }, []);
         
-        const isMobile = screenWidth <= 500;
-        const isTablet = screenWidth > 500 && screenWidth <= 900;
+        const isMobile = screenWidth <= 500; // Determine if the device is a mobile screen
+        const isTablet = screenWidth > 500 && screenWidth <= 900; // Determine if th device is a tablet screen
 
+        // Set size and positioning values based on device type
         const size = isMobile ? 20 : isTablet ? 25 : 30;
         const startY = isMobile ? 620 : isTablet ? 650 : 800;
         const stepY = isMobile ? 50 : isTablet ? 60 : 70;
