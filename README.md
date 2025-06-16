@@ -15,7 +15,7 @@ WhiskerWisdom is a fun web application that presents cat facts and pictures thro
 - **React**
 - **Next.js**
 - **Axios**
-- **Anime.js** -> [animejs.com] (https://animejs.com/)
+- **Anime.js** - [animejs.com] (https://animejs.com/)
 - `.env.local` file for secure API key handling
 
 ## APIs Used
@@ -46,9 +46,9 @@ cd whiskerwisdom
 ```
 2. Create a .env.local file in the root directory with your The Cat API key:
 
-NEXT_PUBLIC_KEY=your-actual-api-key
+    NEXT_PUBLIC_KEY=your-actual-api-key
 
-You can get your free API key at https://thecatapi.com/
+    You can get your free API key at https://thecatapi.com/
 
 3. Install dependencies:
 
