@@ -5,6 +5,7 @@ import Button from '../Button/Button';
 import styles from './CatFact.module.css';
 import CatImage from '../CatImage/CatImage';
 import { getRandomCatImage } from '../../services/catImage';
+import { cutive, quicksand } from '../../fonts';
 import anime from 'animejs';
 
 export default function CatFact() {
@@ -51,12 +52,13 @@ export default function CatFact() {
             <Button 
             onClick={fetchFact} 
             disabled={loading}
+            className={quicksand.className}
             >
                 {catFact ? "Get another cat fact" : "Generate a cat fact"}
             </Button>
             {loading && <p>Loading...</p>}
             <div className={styles.factLayout}>
-                {!loading && catFact && ( <p ref={factRef} className={styles.fact}>{catFact}</p>)}
+                {!loading && catFact && ( <p ref={factRef} className={`${styles.fact} ${cutive.className}`}>{catFact}</p>)}
                 {!loading && imageUrl && ( <CatImage imageUrl={imageUrl}></CatImage>)}
             </div>
         </article>

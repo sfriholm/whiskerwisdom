@@ -2,7 +2,7 @@
 import styles from './Button.module.css'
 import anime from 'animejs';
 
-export default function Button({ onClick, children, disabled }) {
+export default function Button({ onClick, children, disabled, className = "", ...props }) {
 
     function handleClick(e) {
         anime({
@@ -21,7 +21,7 @@ export default function Button({ onClick, children, disabled }) {
         onClick={handleClick}
         disabled={disabled}
         type="button"
-        className={styles.button}
+        className={`${styles.button} ${className}`} {...props}
         >
             {children}
         </button>

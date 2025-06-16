@@ -2,6 +2,7 @@
 import styles from "./page.module.css";
 import { useEffect, useRef } from 'react';
 import { getRandomCatFact } from './services/catFacts';
+import { quicksand } from './fonts';
 import CatFact from './components/CatFact/CatFact';
 import anime from 'animejs';
 import PawTrail from "./components/PawTrail/PawTrail";
@@ -41,8 +42,8 @@ export default function Home() {
 	return (
 		<section className={styles.home}>
 			<PawTrail></PawTrail>
-			<h2 ref={titleRef} className={styles.title}>Welcome to WhiskerWisdom!</h2>
-			<p ref={subtitleRef} className={styles.subtitle}>Click below to discover fascinating cat facts</p>
+			<h2 ref={titleRef} className={`${styles.title} ${quicksand.className}`}>Welcome to WhiskerWisdom!</h2>
+			<p ref={subtitleRef} className={`${styles.subtitle} ${quicksand.className}`}>Click below to discover fascinating cat facts</p>
 			<CatFact></CatFact>
 		</section>
 		
