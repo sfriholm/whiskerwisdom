@@ -1,45 +1,62 @@
 # WhiskerWisdom
-WhiskerWisdom is a fun web application that presents cat facts through animations and interactions. 
+
+WhiskerWisdom is a fun web application that presents cat facts and pictures through animations and interactions. 
 
 ## Features
+
 - Animated cat fact reveal
+- Animated cat pictures
 - Custom button interactions
 - Walking paw print animation
 - Responsive layout
 
-## Techniques used
-- React
-- Next.js
-- Axios
-- Anime.js, https://animejs.com/ 
+## Techniques 
 
-## Data from
-- Cat Fact API, https://catfact.ninja/ 
+- **React**
+- **Next.js**
+- **Axios**
+- **Anime.js** -> [animejs.com] (https://animejs.com/)
+- `.env.local` file for secure API key handling
+
+## APIs Used
+
+- [Cat Fact API] https://catfact.ninja/ 
+- [The Cat API] https://thecatapi.com/
 
 ## License
+
 This project is licensed under the MIT License, for more details see the LICENSE file
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Perequisites
+## Project Setup
+
+### Perequisites
+
 - Node.js
 - npm (comes with Node) or yarn
 
-## Installation
+### Installation
+
 1. Clone the repo:
 ```bash
 git clone https://github.com/sfriholm/whiskerwisdom.git
 cd whiskerwisdom
 ```
-2. 
+2. Create a .env.local file in the root directory with your The Cat API key:
+
+NEXT_PUBLIC_KEY=your-actual-api-key
+
+You can get your free API key at https://thecatapi.com/
+
+3. Install dependencies:
+
 ```bash
 npm install
 ```
 
-## Getting Started
-
-First, run the development server:
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -54,8 +71,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
