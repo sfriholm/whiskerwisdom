@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import styles from './PawPrint.module.css';
+import styles from './styles.module.css';
 
 export default function PawPrint({ x = 0, y = 0, size = 30}) {
     return (

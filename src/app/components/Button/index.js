@@ -1,5 +1,5 @@
 'use client';
-import styles from './Button.module.css'
+import styles from './styles.module.css'
 import anime from 'animejs';
 
 export default function Button({ onClick, children, disabled, className = "", ...props }) {

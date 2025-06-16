@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './styles.module.css';
 import { delius } from '../../fonts';
 
 export default function Footer() {

@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { getRandomCatFact } from '../../services/catFacts';
 import Button from '../Button';
-import styles from './CatFact.module.css';
+import styles from './styles.module.css';
 import CatImage from '../CatImage';
 import { getRandomCatImage } from '../../services/catImage';
 import { cutive, quicksand } from '../../fonts';

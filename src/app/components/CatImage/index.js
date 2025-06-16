@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef } from 'react';
-import styles from './CatImage.module.css';
+import styles from './styles.module.css';
 import anime from 'animejs';
 
 export default function CatImage({ imageUrl }) {

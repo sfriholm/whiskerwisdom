@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import anime from 'animejs';
 import PawPrint from '../PawPrint';
-import styles from './PawTrail.module.css';
+import styles from './styles.module.css';
 
 export default function PawTrail() {
     const trailRef = useRef(null); // Reference to the continer that holds all paw prints
